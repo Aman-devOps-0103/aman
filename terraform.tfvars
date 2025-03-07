@@ -1,0 +1,5 @@
+rg_name ="aman-rg-g10"
+rg_location ="australiacentral"
+account_replication_type ="LRS"
+account_tier ="Standard"
+name ="ivansaaaaaa1123"
