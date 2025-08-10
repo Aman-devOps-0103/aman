@@ -1,28 +1,17 @@
-#resource "azurerm_resource_group" "amanrg10" {
-# name     = "ivan-rg"
-#location = "West Europe"
-#}
-
-#resource "azurerm_storage_account" "ivanstorageaccount" {
-# name                     = "ivanjainsa"
-# resource_group_name      = azurerm_resource_group.amanrg10.name
-#location                 = azurerm_resource_group.amanrg10.location
-#account_tier             = "Standard"
-#account_replication_type = "GRS"
-#}
+resource "azurerm_resource_group" "amanrg10" {
+name     = "ivan-rg1"
+location = "West Europe"
+}
 
 
-#esource "azurerm_resource_group" "amanrg10" {
- #name     = "ivan-rg"
- #location = "West Europe"
-#
-#
-#resource "azurerm_storage_account" "ivanstorageaccount" {
-# depends_on               = [azurerm_resource_group.amanrg10]
- #name                     = "ivanjainsa"
- #resource_group_name      = "ivan-rg"
- #location                 = "west Europe"
- #account_tier             = "Standard"
- #ccount_replication_type = "GRS"
-#}
+resource "azurerm_resource_group" "amanrg101" {
+name     = "ivan-rg2"
+location = "West Europe"
+}
 
+
+resource "azurerm_resource_group" "amanrg10" {
+ name     = "ivan-rg"
+ location = "West Europe"
+
+}
